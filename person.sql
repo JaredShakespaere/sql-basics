@@ -30,4 +30,33 @@ VALUES
  --QUESTION 4
  SELECT * FROM person ORDER BY height
 
- 
+ --QUESTION 5
+ SELECT * FROM person ORDER BY age DESC
+
+ --QUESTION 6
+ SELECT * FROM person ORDER BY age > 20
+
+ --QUESTION 7
+ SELECT * FROM person WHERE age = 18
+
+ --QUESTION 8
+ SELECT * FROM person WHERE age < 20 OR age > 30
+
+ --QUESTION 9
+ SELECT * FROM person WHERE age <> 27
+
+--QUESTION 10
+SELECT * FROM person WHERE favorite_color <> 'Red'
+
+--QUESTION 11
+SELECT * FROM person WHERE favorite_color <> 'Red' AND favorite_color <> 'Blue';
+
+--QUESTION 12
+SELECT * FROM person WHERE favorite_color = 'Orange' OR favorite_color = 'Green';
+
+--QUESTION 13
+SELECT * FROM person WHERE favorite_color IN ('Green', 'Orange', 'Blue');
+
+--QUESTION 14
+SELECT * FROM person WHERE favorite_color IN ('Purple', 'Yellow');
+
